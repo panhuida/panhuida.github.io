@@ -2,12 +2,11 @@
 title: 使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客
 description: >-
   记录使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客的搭建过程
-author: "panhuida"
-date: 2025-04-27 03:55:00 +0800
+author: panhuida
+date: 2025-04-27 08:53 +0800
 categories: [Blog, Tutorial]
 tags: [homelab]
 pin: true
-toc: true
 media_subpath: /assets/img
 ---
 
