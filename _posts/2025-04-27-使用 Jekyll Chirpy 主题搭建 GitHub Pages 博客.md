@@ -11,34 +11,21 @@ media_subpath: /assets/img
 ---
 
 
-### **要点**
-
-1.最少配置使用 [chirpy-starter](https://github.com/cotes2020/chirpy-starter) ，需要定制功能、UI 使用 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
-
-2.使用  [chirpy-starter](https://github.com/cotes2020/chirpy-starter) ，直接基于存储库创建存储库，如果要使用丰富的功能，从  [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 拷贝相关的文件夹
-
-3.内容管理
-
-- 内容管理博文存放在 _posts 目录，文件名格式为 YYYY-MM-DD-title.md
-- 使用 YAML Front Matter 定义文章元数据（如标题、分类）
-
-4.部署
-
-- 推送代码至 GitHub 仓库，GitHub Pages 会自动构建（ 构建来源要设置为 GitHub Actions）
-
-
-
-### **简介**
+## **简介**
 
 Jekyll 是一个静态站点生成器，内置 GitHub Pages 支持和简化的构建过程。 Jekyll 使用 Markdown 和 HTML 文件，并根据您选择的布局创建完整静态网站。
 
 Jekyll Chirpy 主题是一个基于 Jekyll 的博客主题，它提供了很多功能，比如文章分类、标签、评论、搜索、分页等。
 
+有两种使用 Jekyll Chirpy 主题的方式，最少配置使用 [chirpy-starter](https://github.com/cotes2020/chirpy-starter) ，需要定制功能、UI 使用 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+。
+
+本文采用的是 chirpy-starter 的方式。
 
 
-### **操作步骤**
+## **操作步骤**
 
-##### 1.创建站点存储库
+### 1.创建站点存储库
 
 基于 [chirpy-starter](https://github.com/cotes2020/chirpy-starter) 创建站点存储库，存储库的名字为 "panhuida.github.io"
 
@@ -49,7 +36,7 @@ Jekyll Chirpy 主题是一个基于 Jekyll 的博客主题，它提供了很多�
 
 
 
-##### 2.配置 GitHub Actions
+### 2.配置 GitHub Actions
 
 在存储库  "panhuida.github.io" 的设置中，选择 "Pages"， 将 "Build and deployment" 的 Source 选择为 "GitHub Actions"
 
@@ -57,7 +44,7 @@ https://github.com/panhuida/panhuida.github.io/settings/pages
 
 
 
-##### 3.简单配置
+### 3.简单配置
 
 将 存储库  "panhuida.github.io"  克隆到本地，修改 _config.yml 文件，然后运行提交修改，github page服务会自动更新博客内容。
 
@@ -88,7 +75,7 @@ avatar: /assets/img/avatar.jpg
 
 
 
-##### 4.写博客
+### 4.写博客
 
 博客文章一般放在_posts文件夹中，文件名格式为YYYY-MM-DD-title.md，其中YYYY-MM-DD为发布日期，title为文章标题，.md为文件后缀。
 
@@ -130,7 +117,7 @@ https://chatgpt.com/c/680b0318-2c08-8012-a44b-e4cd7e5a4323
 
 
 
-###### 示例
+#### 示例
 
 如从 https://chirpy.cotes.page/ 对应的 存储库 https://github.com/cotes2020/jekyll-theme-chirpy 中复制 Getting Started 这边文章。
 
@@ -159,7 +146,7 @@ pin: true
 
 
 
-##### 5.设置评论功能
+### 5.设置评论功能
 
 https://wayfare11.github.io/posts/build-blog-on-github/#写评论
 
@@ -169,7 +156,7 @@ https://www.lixueduan.com/posts/blog/02-add-giscus-comment/
 
 
 
-##### 6.设置本地开发环境
+### 6.设置本地开发环境
 
 （1）操作步骤
 
@@ -201,7 +188,7 @@ $ bundle exec jekyll s
 
 
 
-### **参考资料**
+## **参考资料**
 
 Jekyll Chirpy 主题官方网站及代码库
 
