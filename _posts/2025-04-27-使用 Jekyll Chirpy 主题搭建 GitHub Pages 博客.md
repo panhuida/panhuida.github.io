@@ -8,7 +8,7 @@ categories: [Blog, Tutorial]
 tags: [homelab]
 pin: true
 toc: true
-media_subpath: /_posts
+media_subpath: /assets/img
 ---
 
 
@@ -45,7 +45,7 @@ Jekyll Chirpy 主题是一个基于 Jekyll 的博客主题，它提供了很多�
 
 
 
-![image-20250425104929316](使用%20Jekyll%20Chirpy%20主题搭建%20GitHub%20Pages%20博客.assets/image-20250425104929316.png)
+![image-20250425104929316](使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客.assets/image-20250425104929316.png)
 
 
 
@@ -156,7 +156,7 @@ pin: true
 
 输出示例
 
-![image-20250425153609279](使用%20Jekyll%20Chirpy%20主题搭建%20GitHub%20Pages%20博客.assets/image-20250425153609279.png)
+![image-20250425153609279](使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客.assets/image-20250425153609279.png)
 
 
 
@@ -180,7 +180,7 @@ https://www.lixueduan.com/posts/blog/02-add-giscus-comment/
 
   使用 VS Code 打开 panhuida.github.io 代码库，会提示安装 Dev Containers 扩展；安装 Dev Containers 扩展 后，会提示“在卷中克隆”  
 
-![image-20250427103208313](使用%20Jekyll%20Chirpy%20主题搭建%20GitHub%20Pages%20博客.assets/image-20250427103208313.png)
+![image-20250427103208313](使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客.assets/image-20250427103208313.png)
 
 - 选择"在卷中克隆"
 
