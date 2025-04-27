@@ -11,9 +11,9 @@ media_subpath: /assets/img
 ---
 
 
-## **简介**
+## **介绍**
 
-Jekyll 是一个静态站点生成器，内置 GitHub Pages 支持和简化的构建过程。 Jekyll 使用 Markdown 和 HTML 文件，并根据您选择的布局创建完整静态网站。
+Jekyll 是一个静态站点生成器，内置 GitHub Pages 支持和简化的构建过程。 Jekyll 使用 Markdown 和 HTML 文件，并根据选择的布局创建完整静态网站。
 
 Jekyll Chirpy 主题是一个基于 Jekyll 的博客主题，它提供了很多功能，比如文章分类、标签、评论、搜索、分页等。
 
@@ -48,7 +48,7 @@ https://github.com/panhuida/panhuida.github.io/settings/pages
 
 将 存储库  "panhuida.github.io"  克隆到本地，修改 _config.yml 文件，然后运行提交修改，github page服务会自动更新博客内容。
 
-存储库  "panhuida.github.io"  克隆到本地
+（1）存储库  "panhuida.github.io"  克隆到本地
 
 ```shell
 E:\study\study\github>git clone https://github.com/panhuida/panhuida.github.io.git
@@ -60,7 +60,7 @@ remote: Total 37 (delta 0), reused 26 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (37/37), 12.31 KiB | 393.00 KiB/s, done.
 ```
 
-_config.yml 文件
+（2）_config.yml 文件
 
 ```yaml
 url: "https://panhuida.github.io"
@@ -176,15 +176,22 @@ https://www.lixueduan.com/posts/blog/02-add-giscus-comment/
 
 https://chirpy.cotes.page/posts/getting-started/#setting-up-the-environment
 
-使用VScode，在仓库的根目录，打开终端，执行下面命令。
+使用VScode，在仓库的根目录，打开终端，执行命令 `bundle exec jekyll s`。
 
 ```shell
-$ bundle exec jekyll s
+vscode ➜ /workspaces/panhuida.github.io (main) $  bundle exec jekyll s 
+Configuration file: /workspaces/panhuida.github.io/_config.yml
+            Source: /workspaces/panhuida.github.io
+       Destination: /workspaces/panhuida.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.607 seconds.
+ Auto-regeneration: enabled for '/workspaces/panhuida.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
 ```
 
 打开浏览器，进入http://127.0.0.1:4000/ 就可以看到自己的网站了
-
-
 
 
 
