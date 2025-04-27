@@ -24,7 +24,7 @@ media_subpath: /assets/img
 
 4.部署
 
-- 推送代码至 GitHub 仓库，启用 GitHub Pages 自动构建
+- 推送代码至 GitHub 仓库，GitHub Pages 会自动构建（ 构建来源要设置为 GitHub Actions）
 
 
 
