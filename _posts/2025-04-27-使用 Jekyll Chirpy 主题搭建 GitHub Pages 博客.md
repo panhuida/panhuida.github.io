@@ -3,23 +3,14 @@ title: 使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客
 description: >-
   记录使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客的搭建过程
 author: panhuida
-date: 2025-04-27 11:55:00 +0800
+date: 2025-04-27 03:55:00 +0800
 categories: [Blog, Tutorial]
 tags: [homelab]
 pin: true
+media_subpath: /assets/img
 ---
 
-### 使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客
-
-https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
-
-https://chirpy.cotes.page/posts/getting-started/
-
-https://wayfare11.github.io/posts/build-blog-on-github/
-
-
-
-#### 要点
+#### **01 要点**
 
 1.最少配置使用 [chirpy-starter](https://github.com/cotes2020/chirpy-starter) ，需要定制功能、UI 使用 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 
@@ -36,7 +27,7 @@ https://wayfare11.github.io/posts/build-blog-on-github/
 
 
 
-#### 简介
+#### **02 简介**
 
 Jekyll 是一个静态站点生成器，内置 GitHub Pages 支持和简化的构建过程。 Jekyll 使用 Markdown 和 HTML 文件，并根据您选择的布局创建完整静态网站。
 
@@ -44,7 +35,8 @@ Jekyll Chirpy 主题是一个基于 Jekyll 的博客主题，它提供了很多�
 
 
 
-#### 操作步骤
+
+#### **03 操作步骤**
 
 ##### 1.创建站点存储库
 
@@ -209,7 +201,7 @@ $ bundle exec jekyll s
 
 
 
-#### 参考资料
+#### **04 参考资料**
 
 **Jekyll Chirpy 主题官方网站及代码库**
 
