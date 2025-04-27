@@ -71,7 +71,7 @@ tagline: A text-focused Jekyll theme # it will display as the subtitle
 avatar: /assets/img/avatar.jpg
 ```
 
-配置之后，提交修改，访问 https://panhuida.github.io/ 可以看到效果了。
+配置之后，提交修改，访问 https://panhuida.github.io/ 可以看到效果了（如果显示不正常，在 GitHub 仓库检查 GitHub Actions 的构建情况）。
 
 
 
