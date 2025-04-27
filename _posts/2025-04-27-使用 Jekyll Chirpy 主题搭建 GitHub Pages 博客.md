@@ -2,15 +2,18 @@
 title: 使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客
 description: >-
   记录使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客的搭建过程
-author: panhuida
+author: "panhuida"
 date: 2025-04-27 03:55:00 +0800
 categories: [Blog, Tutorial]
 tags: [homelab]
 pin: true
+toc: true
 media_subpath: /assets/img
 ---
 
-#### **01 要点**
+
+
+### **要点**
 
 1.最少配置使用 [chirpy-starter](https://github.com/cotes2020/chirpy-starter) ，需要定制功能、UI 使用 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 
@@ -27,7 +30,7 @@ media_subpath: /assets/img
 
 
 
-#### **02 简介**
+### **简介**
 
 Jekyll 是一个静态站点生成器，内置 GitHub Pages 支持和简化的构建过程。 Jekyll 使用 Markdown 和 HTML 文件，并根据您选择的布局创建完整静态网站。
 
@@ -35,8 +38,7 @@ Jekyll Chirpy 主题是一个基于 Jekyll 的博客主题，它提供了很多�
 
 
 
-
-#### **03 操作步骤**
+### **操作步骤**
 
 ##### 1.创建站点存储库
 
@@ -44,7 +46,7 @@ Jekyll Chirpy 主题是一个基于 Jekyll 的博客主题，它提供了很多�
 
 
 
-![image-20250425104929316](写作.assets/image-20250425104929316.png)
+![image-20250425104929316](使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客.assets/image-20250425104929316.png)
 
 
 
@@ -154,7 +156,7 @@ pin: true
 
 输出示例
 
-![image-20250425153609279](写作.assets/image-20250425153609279.png)
+![image-20250425153609279](使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客.assets/image-20250425153609279.png)
 
 
 
@@ -168,7 +170,7 @@ https://www.lixueduan.com/posts/blog/02-add-giscus-comment/
 
 
 
-##### 5.设置本地开发环境
+##### 6.设置本地开发环境
 
 （1）操作步骤
 
@@ -178,10 +180,9 @@ https://www.lixueduan.com/posts/blog/02-add-giscus-comment/
 
   使用 VS Code 打开 panhuida.github.io 代码库，会提示安装 Dev Containers 扩展；安装 Dev Containers 扩展 后，会提示“在卷中克隆”  
 
-![image-20250427103208313](写作.assets/image-20250427103208313.png)
+![image-20250427103208313](使用 Jekyll Chirpy 主题搭建 GitHub Pages 博客.assets/image-20250427103208313.png)
 
 - 选择"在卷中克隆"
-
 
 
 
@@ -201,26 +202,26 @@ $ bundle exec jekyll s
 
 
 
-#### **04 参考资料**
+### **参考资料**
 
-**Jekyll Chirpy 主题官方网站及代码库**
+Jekyll Chirpy 主题官方网站及代码库
 
 https://chirpy.cotes.page/posts/getting-started/
 
 https://github.com/cotes2020/chirpy-starter
 
-**wayfare11 的博客**
+wayfare11 的博客
 
 https://wayfare11.github.io/posts/build-blog-on-github/
 
 https://github.com/wayfare11/wayfare11.github.io
 
-**使用Github Pages搭建个人主页or博客网站**
+使用Github Pages搭建个人主页or博客网站
 
 https://zhuanlan.zhihu.com/p/641525444
 
 https://zhuanlan.zhihu.com/p/695291923
 
-**爆赞的博客主题分享，值得一看**
+爆赞的博客主题分享，值得一看
 
 https://mp.weixin.qq.com/s/Pm8MXHB_cPQ2rCKyhog_XA
