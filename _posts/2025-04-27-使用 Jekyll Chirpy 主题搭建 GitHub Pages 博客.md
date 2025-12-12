@@ -6,7 +6,6 @@ author: panhuida
 date: 2025-04-27 17:02 +0800
 categories: [Blog, Tutorial]
 tags: [homelab]
-pin: true
 media_subpath: /assets/img
 ---
 
